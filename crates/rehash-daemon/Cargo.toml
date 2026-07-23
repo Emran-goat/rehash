@@ -2,9 +2,12 @@
 name = "rehash-daemon"
 version = "0.1.0"
 edition = "2021"
+description = "Background daemon for the rehash build cache: manages cache store, watches source files, IPC server"
+license = "MIT"
+repository = "https://github.com/Emran-goat/rehash"
 
 [dependencies]
-rehash-core = { path = "../rehash-core" }
+rehash-core = { version = "0.1.0", path = "../rehash-core" }
 tokio = { version = "1", features = ["full"] }
 tracing = "0.1"
 tracing-subscriber = "0.3"

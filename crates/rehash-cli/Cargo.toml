@@ -2,9 +2,12 @@
 name = "rehash"
 version = "0.1.0"
 edition = "2021"
+description = "Build cache CLI tool: wraps build commands, hashes inputs, caches outputs to skip redundant rebuilds"
+license = "MIT"
+repository = "https://github.com/Emran-goat/rehash"
 
 [dependencies]
-rehash-core = { path = "../rehash-core" }
+rehash-core = { version = "0.1.0", path = "../rehash-core" }
 clap = { version = "4", features = ["derive"] }
 tokio = { version = "1", features = ["rt", "macros", "fs"] }
 tracing = "0.1"
