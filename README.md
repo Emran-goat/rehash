@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/logo.svg" alt="rehash" width="120">
+  <img src="docs/logo.svg" alt="rehash" width="250">
 </p>
 
 <h1 align="center">rehash</h1>
