@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = [
+  "crates/rehash-core",
+  "crates/rehash-cli",
+  "crates/rehash-daemon",
+]

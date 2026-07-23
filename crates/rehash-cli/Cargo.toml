@@ -1,0 +1,13 @@
+[package]
+name = "rehash"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rehash-core = { path = "../rehash-core" }
+clap = { version = "4", features = ["derive"] }
+tokio = { version = "1", features = ["rt", "macros", "fs"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+anyhow = "1"
+dirs = "5"
